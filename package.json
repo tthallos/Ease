@@ -61,6 +61,26 @@
                 "type": "boolean",
                 "default": true,
                 "group": "homepage"
+            },
+            "topic_columns": {
+                "type": "select",
+                "options": [
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "default": "2",
+                "group": "homepage"
+            },
+            "i18n_show_more_text": {
+                "type": "string",
+                "default": "Show more",
+                "group": "homepage"
+            },
+            "i18n_search_placeholder": {
+                "type": "string",
+                "default": "Search posts, tags, authors...",
+                "group": "homepage"
             }
         }
     },

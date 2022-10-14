@@ -50,7 +50,7 @@
             <div class="search">
                 <form class="search-form">
                     <div class="form-wrapper">
-                        <div class="search-field" data-ghost-search>Search posts, tags, authors...</div>
+                        <div class="search-field" data-ghost-search>{{@custom.i18n_search_placeholder}}</div>
                         <button class="form-button search-button" type="submit" data-ghost-search>
                             {{> "icons/search"}}
                             {{> "icons/close"}}
@@ -76,9 +76,6 @@
             <nav class="gh-foot-menu">
                 {{navigation type="secondary"}}
             </nav>
-            <div class="gh-powered-by">
-                <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
-            </div>
         </div>
     </footer>
 

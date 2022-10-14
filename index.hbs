@@ -8,7 +8,7 @@
     {{/if}}
 
     {{#get "tags" limit="all"}}
-    <div class="topic-feed">
+    <div class="topic-feed" style="--columns: {{#foreach @custom.topic_columns}}1fr {{/foreach}}">
 
         {{#foreach tags}}
             <section class="topic">
@@ -30,10 +30,9 @@
                         {{/foreach}}
                     </ul>
                 {{/get}}
-                <a class="topic-more" href="{{url}}">Show more →</a>
+                <a class="topic-more" href="{{url}}">{{@custom.i18n_show_more_text}} →</a>
             </section>
         {{/foreach}}
-
     </div>
     {{/get}}
 

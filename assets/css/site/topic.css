@@ -1,6 +1,7 @@
 .topic-feed {
+    --columns: 1fr 1fr;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: var(--columns);
     gap: 80px 60px;
 }
 
